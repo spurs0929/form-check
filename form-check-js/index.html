@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form-check</title>
+</head>
+<body>
+  <div id="userForm">
+    <p>
+      <input 
+        type="text"
+        class="user-form"
+        name="realname"
+        placeholder="Realname"
+      />
+    </p>
+    <p>
+      <input 
+        type="number"
+        class="user-form"
+        name="age"
+        placeholder="Age"
+      />
+    </p>
+    <p>
+      <input 
+        type="text"
+        class="user-form"
+        name="username"
+        placeholder="username"     
+      />
+    </p>
+    <p>
+      <input 
+        type="password"
+        class="user-form"
+        name="password"
+        placeholder="password"
+      />
+    </p>
+    <p>
+      <input 
+        type="radio"
+        class="user-form"
+        name="gender"
+        value="male"
+        checked
+      /> Male
+      <input 
+        type="radio"
+        class="user-form"
+        name="gender"
+        value="female"  
+      > Female
+    </p>
+    <p>
+      <select 
+        class="user-form" 
+        name="occupation"
+      >
+        <option value="">Please choose ...</option>
+        <option value="teacher">Teacher</option>
+        <option value="police">Police</option>
+      </select>
+    </p>
+    <p>
+      <input 
+        type="checkbox"
+        class="user-form"
+        name="hobbies"
+        value="music"
+      /> Music
+      <input 
+        type="checkbox"
+        class="user-form"
+        name="hobbies"
+        value="travel"
+      /> Travel
+      <input 
+        type="checkbox"
+        class="user-form"
+        name="hobbies"
+        value="football"
+      /> Football
+      <input 
+        type="checkbox"
+        class="user-form"
+        name="hobbies"
+        value="backetball"
+      /> Backetball
+    </p>
+    <p>
+      <textarea 
+        class="user-form" 
+        name="intro" 
+        placeholder="Self Introduction">
+      </textarea>
+    </p>
+    <p>
+      <button class="user-form">Submit</button>
+    </p>
+  </div>
+  
+  <script type="module" src="./index.js"></script>
+</body>
+</html>
